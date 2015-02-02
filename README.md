@@ -5,7 +5,7 @@ Simple, Fast, and Correct UUID v4 support for Lua
 ## About
 
 * Lua support for generating random [UUIDs](http://en.wikipedia.org/wiki/Universally_unique_identifier)
-* Requires Linux (or anything other OS with /dev/urandom)
+* Requires Linux (or other OS with /dev/urandom)
 
 
 ## Features
