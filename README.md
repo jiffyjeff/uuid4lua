@@ -10,9 +10,9 @@ Simple, Fast, and Correct UUID v4 support for Lua
 
 ## Features
 
-* Does not reinvent random number generation; No seeding required
-* Unlike some "random" UUID generators, this one produces unique values
-* Very Fast (Approx 4 x faster than competition in informal testing)
+* Does not reinvent random number generation; No tricky seeding required
+* Not reliant on timestamps: Parallel execution produces unique values
+* Very Fast (Approx 3 x faster than competition in informal testing)
 * Simple and easy to use
 
 ## Usage
