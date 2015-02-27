@@ -11,8 +11,8 @@ Simple, Fast, and Correct UUID v4 support for Lua
 ## Features
 
 * Does not reinvent random number generation; No tricky seeding required
-* Not reliant on timestamps: Parallel execution produces unique values
-* Very Fast (Approx 3 x faster than competition in informal testing)
+* Not reliant on timestamps: Simultaneous executions produce unique values
+* Very fast (Approx 5 x faster than similar libraries in informal testing)
 * Simple and easy to use
 
 ## Usage
@@ -22,9 +22,11 @@ Simple, Fast, and Correct UUID v4 support for Lua
 local uuid4 = require("uuid4")
 print(uuid4.newUUID())
 ```
-
+```
+41b90d25-901a-41a6-87f5-4b966033c7c1
+```
 ```Lua
--- Generate some samples
+-- Generate some more
 for i = 1, 10 do
     print(uuid4.newUUID())
 end
